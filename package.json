@@ -1,0 +1,33 @@
+{
+  "name": "js-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmabaka/node-js-hw-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmabaka/node-js-hw-01/issues"
+  },
+  "homepage": "https://github.com/emmabaka/node-js-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/db/**"
+    ]
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
